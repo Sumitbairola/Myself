@@ -1,0 +1,86 @@
+/* Profile container styles */
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5cm;
+  }
+  
+  /* Profile photo styles */
+  .profile-photo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid white; /* Adding a border to the profile photo */
+    transition: transform 0.3s ease; /* Smooth transition on hover/click */
+  }
+  
+  h1 {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  
+  /* Navigation button styles */
+  nav button {
+    margin-right: 10px;
+    padding: 15px 30px;
+    background-color: #9269a1;
+    color: rgb(52, 48, 48);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  nav button:last-child {
+    margin-right: 1cm;
+  }
+  
+  nav button:hover {
+    background-color: #9b88a3;
+  }
+  
+  /* Modal styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    position: relative;
+  }
+  
+  .modal-photo {
+    max-width: 50%; /* Ensure it doesn't cover the full website */
+    max-height: 50%; /* Ensure it doesn't cover the full website */
+    border-radius: 50%; /* Present in a circular frame */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow to the frame */
+    border: 5px solid white; /* Adding white border to the frame */
+  }
+  
+  .modal-content::after {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+
+  

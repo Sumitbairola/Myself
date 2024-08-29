@@ -1,0 +1,45 @@
+/* src/components/Contact.css */
+.contact-container {
+    color: #0d0808; /* Set text color to white */
+  padding: 120px;
+  background-color: #9faebd; /* Solid white background */
+  border-radius: 30px; /* Rounded corners */
+  max-width: 500px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+
+  .contact-section {
+    padding: 20px;
+  }
+  
+  .contact-heading {
+    color: #150c0c; /* Set heading color to white */
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item span {
+    margin-left: 10px; /* Space between icon and text */
+    font-size: 18px;
+  }
+  
+  .contact-item svg {
+    font-size: 24px; /* Adjust the icon size */
+    color: #110909; /* Ensure icons are white */
+  }
+  
+  
+  

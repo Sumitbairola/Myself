@@ -1,0 +1,27 @@
+/* src/components/About.css */
+
+/* About Section Styling */
+.About {
+    background-color: #9faebd;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-section {
+    padding: 20px;
+  }
+  
+  .About h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .About p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #120f0f;
+  }
+  
